@@ -32,11 +32,8 @@ body {
 .toolbar-flex{
     display: flex;
     justify-content: space-around;
-   
     gap: 40px;
     padding: 10px 0;
-    
-    
 }
 
 .toolbar-flex a {
@@ -46,24 +43,22 @@ body {
 
 
 .menu {
+    display: flex;
+    justify-content: space-between;
     margin: 15px 0;
     padding-left: 8rem;
     padding-right: 8rem;
     position: sticky;
     top: 0;
     background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    
 }
 
 
 .menu-list {
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 45px;
     align-items: center;
-    padding-left: 1rem;
     padding-right: 1rem; 
     list-style: none;
 }
@@ -96,15 +91,15 @@ body {
 
 
 .content-text h3 {
-    font-size: 60px;
-    font-weight: 500;
-    
+    font-size: 3rem;
+    color: white;
+    margin-left: 7rem;
 }
 
-
 .content-text p{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: 7rem;
 }
 
 
@@ -112,7 +107,7 @@ body {
     display: flex;
     margin-left: 8rem;
     margin-right: 8rem;
-    background-color: #FFB700;
+    background-color: #ebbe4e;
     padding: 17px 70px;
     border-radius: 5px;
     margin-top: 40px;
@@ -121,7 +116,10 @@ body {
     border: none;
     
 }
-
+.btn2:hover {
+    background-color: #ffb700;
+    transition: 0.6;
+}
 
 .content-icon {
     display: flex;
@@ -237,12 +235,17 @@ body {
 .rabota img{
     width: 100%;
 }
+
+.our-blocks {
+    font-size: 2rem;
+}
+
 /* -------------------- */
 .blok-3{
     display: flex;
-    justify-content: space-around;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    justify-content: space-between;
+    padding-left: 6rem;
+    padding-right: 6rem;
     padding-top: 2rem;
 }
 .blok-3 h3{
@@ -270,9 +273,9 @@ body {
 /* ----------------- */
 .blok-4{
     display: flex;
-    justify-content: space-around;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    justify-content: space-between;
+    padding-left: 6rem;
+    padding-right: 6rem;
     padding-top: 2rem;
 }
 .blok-4 h3{
@@ -325,7 +328,9 @@ body {
     transition: 0.4s;
 }
 
-
+.Production img {
+    width: 100%;
+}
 
 .Production {
     font-size: 2rem;
@@ -340,6 +345,8 @@ body {
     display: flex;
     margin-top: 3rem;
     justify-content: center;
+    margin-left: 5rem;
+    margin-right: 6rem;
     gap: 3rem;
 }
 
